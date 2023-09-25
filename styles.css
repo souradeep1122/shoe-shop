@@ -1,0 +1,287 @@
+
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+}
+:root{
+    --background-color: rgb(205, 205, 205) ;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-color:var(--background-color);
+    
+   
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.home{
+    width: 100%;
+    height: 100vh; 
+}
+
+
+
+/*centre*/
+.centre{
+ 
+    display: flex;
+    padding: 50px 50px;
+    justify-content: space-between;
+}
+.centre-left{
+    
+    padding-top: 150px;
+    width: 45vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 1;
+    gap: 5px;
+    text-transform: capitalize;
+    
+}
+
+    
+
+.h7{
+    font-size: 1vw;
+}
+.nike{
+    font-size: 4vw;
+   
+    color:transparent;
+    -webkit-text-stroke: 1px rgb(61, 61, 61);
+    text-transform: uppercase;
+    font-weight: 500;
+    text-shadow: 3px 0px rgb(66, 66, 66);
+}
+.centre-left button{
+    border: solid;
+    border-width: 10px;
+    border-radius: 0px 20px 20px 20px;
+    display: flex;
+    align-items: center;
+    color: white;
+    border-color: black;
+    background-color: black;
+    margin: 10px;
+    text-transform: uppercase;
+    width: 130px;
+    height: 40px;
+    justify-content: center;
+} 
+.centre-right{
+   
+    display: flex;
+  
+    
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    
+    gap: 19px;
+    padding-top: 40px;
+ 
+
+}
+.product{
+    
+    border-radius: 50px;
+    display: flex;
+    background: linear-gradient(to bottom right,rgba(232, 139, 18, 0.89),rgba(255, 255, 255, 0.825));
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+
+
+}
+.product img{
+    width: 40vw;
+    rotate: -10deg;
+    
+    height: 49vh;
+   
+}
+
+/*footwear*/
+.footwear{
+    display: flex;
+    flex-direction:column;
+    padding: 0px 40px;
+    font-weight: 700;
+    
+}
+.foot-heading{
+    margin-bottom: 20px;
+    
+    font-size: 2rem;
+}
+.foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    gap: 20px;
+   
+}
+.foot img{
+    width:100%;
+    height: 500px;
+    object-fit: cover;
+    
+    
+}
+.mens-foot{
+    display: flex;
+    flex-direction: column;
+}
+.mens-foot span{
+    border: solid;
+    font-size: 1.1rem;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    transform: translateY(-60px);
+    margin-left: 10px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    justify-content: center;
+    
+    padding: 3px;
+
+}
+
+
+/*slider-ad*/
+.slider-ad{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    font-weight: 800;
+   
+    padding: 0px 40px;
+}
+.slider-heading{
+    font-size: 2rem;
+}
+.slider-img{
+    height: 85%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    
+    justify-content: space-between;
+    align-items: center;
+}
+.slider-img img{
+   
+    width: 290px;
+    height: 80%;
+   
+}
+
+
+  
+  
+
+
+/* top ad*/
+.top-ad{
+    
+    font-size: 2rem;
+    background-color: rgb(227, 227, 227);
+    background: linear-gradient(to bottom right,rgb(47, 182, 240),rgb(140, 240, 140));
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px 20px;
+    font-size: 3rem;
+    font-weight: 900;
+    margin: 50px 40px;
+   
+   
+
+}
+.top-ad img{
+    height: 40vh;
+    
+}
+.top-ad img:first-child{
+    
+    rotate: 2deg;
+}
+.top-ad img:nth-child(2){
+    rotate: 9deg;
+    transform: scaleX(-1);
+
+}
+
+/*running ad img*/
+.running-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 40px;
+}
+.run_heading{
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.run-img img{
+    width: 93vw;
+    height: 50vh;
+    object-fit: cover;
+}
+.run-img {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.run-img o{
+    border: solid;
+    background-color: white;
+    transform: translateY(-50px);
+    padding: 5px;
+    font-weight: 800;
+    font-size: 1.2rem;
+    border-radius: 20px;
+   
+}
+
+
+
+
+@media (max-width:1000px) {
+    body{
+      display: none;
+    } 
+   
+   
+  }
+  
+  
+
+
+
+
+
+
+
