@@ -5,97 +5,86 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   
 }
-:root{
-    --background-color: rgb(205, 205, 205) ;
-}
-body{
-    height: 100%;
-    width: 100%;
-    background-color:var(--background-color);
-    
-   
-}
+
+
 .main{
+    padding: 0vw 2vw;
+    background-color: rgb(182, 182, 182);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     
-}
-.home{
-    width: 100%;
-    height: 100vh; 
 }
 
 
 
 /*centre*/
 .centre{
- 
+    padding: 9vw 0vw;
+   
     display: flex;
-    padding: 50px 50px;
+   
     justify-content: space-between;
 }
 .centre-left{
     
-    padding-top: 150px;
-    width: 45vw;
+    font-size: 1.2vw;
+    width: 50vw;
+    margin-left: 5vw;
+   
+    
+    
+   
+    
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+   
+    justify-content: center;
     line-height: 1;
-    gap: 5px;
+    gap: 1vw;
     text-transform: capitalize;
     
 }
 
     
 
-.h7{
+.centre-left h7{
     font-size: 1vw;
+}
+.centre-left h{
+    font-size: 1.3vw;
 }
 .nike{
     font-size: 4vw;
    
     color:transparent;
-    -webkit-text-stroke: 1px rgb(61, 61, 61);
+    -webkit-text-stroke: 0.1vw rgb(61, 61, 61);
     text-transform: uppercase;
     font-weight: 500;
-    text-shadow: 3px 0px rgb(66, 66, 66);
+    text-shadow: 0.4vw 0px rgb(66, 66, 66);
 }
 .centre-left button{
-    border: solid;
-    border-width: 10px;
+   
     border-radius: 0px 20px 20px 20px;
     display: flex;
     align-items: center;
+    font-size: 1.3vw;
     color: white;
-    border-color: black;
+    border: 1px solid black;
+   
     background-color: black;
-    margin: 10px;
+   
     text-transform: uppercase;
-    width: 130px;
-    height: 40px;
+    width: 10vw;
+    height: 3vw;
     justify-content: center;
 } 
-.centre-right{
-   
-    display: flex;
-  
-    
-    justify-content: center;
-    align-items: center;
-    border-radius: 50px;
-    
-    gap: 19px;
-    padding-top: 40px;
- 
 
-}
 .product{
     
-    border-radius: 50px;
+    border-radius: 5vw;
     display: flex;
-    background: linear-gradient(to bottom right,rgba(232, 139, 18, 0.89),rgba(255, 255, 255, 0.825));
+    
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -106,35 +95,39 @@ body{
 .product img{
     width: 40vw;
     rotate: -10deg;
+    object-fit: contain;
     
-    height: 49vh;
+    height: 30vw;
    
 }
 
 /*footwear*/
 .footwear{
+    
     display: flex;
     flex-direction:column;
+    align-items: center;
     padding: 0px 40px;
     font-weight: 700;
     
 }
 .foot-heading{
     margin-bottom: 20px;
+   
     
-    font-size: 2rem;
+    font-size: 3vw;
 }
 .foot{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     
-    gap: 20px;
+    gap: 2vw;
    
 }
 .foot img{
-    width:100%;
-    height: 500px;
+    width: 28vw;
+    height: 40vw;
     object-fit: cover;
     
     
@@ -145,12 +138,12 @@ body{
 }
 .mens-foot span{
     border: solid;
-    font-size: 1.1rem;
+    font-size: 1.2vw;
     border-radius: 20px;
     background-color: rgb(255, 255, 255);
-    transform: translateY(-60px);
+    transform: translateY(-6vw);
     margin-left: 10px;
-    width: 80px;
+    width: 8vw;
     display: flex;
     align-items: center;
     text-transform: capitalize;
@@ -163,32 +156,41 @@ body{
 
 /*slider-ad*/
 .slider-ad{
-    height: 70vh;
+   
+    padding: 3vw 0vw;
+    
+  
     display: flex;
     flex-direction: column;
     align-items: center;
     
     font-weight: 800;
    
-    padding: 0px 40px;
+   
 }
 .slider-heading{
-    font-size: 2rem;
+    font-size: 3vw;
+    margin-bottom: 2vw;
 }
 .slider-img{
-    height: 85%;
-    width: 100%;
+   
+   
+    
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 3vw;
+    
     
     justify-content: space-between;
     align-items: center;
 }
 .slider-img img{
+    height: 25vw;
+    object-fit: contain;
+    
    
-    width: 290px;
-    height: 80%;
+    width: 20vw;
+    
    
 }
 
@@ -200,53 +202,48 @@ body{
 /* top ad*/
 .top-ad{
     
-    font-size: 2rem;
+   
     background-color: rgb(227, 227, 227);
     background: linear-gradient(to bottom right,rgb(47, 182, 240),rgb(140, 240, 140));
     
     display: flex;
+    padding: 0vw 5vw;
     align-items: center;
     justify-content: space-between;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    padding: 0px 20px;
-    font-size: 3rem;
+   
+    font-size: 5vw;
     font-weight: 900;
-    margin: 50px 40px;
+    margin-bottom: 15vw;
+    
    
    
 
 }
 .top-ad img{
-    height: 40vh;
+    height: 25vw;
     
 }
-.top-ad img:first-child{
-    
-    rotate: 2deg;
-}
-.top-ad img:nth-child(2){
-    rotate: 9deg;
-    transform: scaleX(-1);
 
-}
 
 /*running ad img*/
 .running-img{
+   
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 0px 40px;
+   
 }
 .run_heading{
-    font-size: 2rem;
-    margin-bottom: 20px;
+    font-size: 3vw;
+    margin-bottom: 2vw;
     font-weight: 700;
 }
 
 .run-img img{
-    width: 93vw;
-    height: 50vh;
+    width: 90vw;
+    height: 25vw;
     object-fit: cover;
 }
 .run-img {
@@ -261,7 +258,7 @@ body{
     transform: translateY(-50px);
     padding: 5px;
     font-weight: 800;
-    font-size: 1.2rem;
+    font-size: 1.2vw;
     border-radius: 20px;
    
 }
@@ -269,14 +266,6 @@ body{
 
 
 
-@media (max-width:1000px) {
-    body{
-      display: none;
-    } 
-   
-   
-  }
-  
   
 
 

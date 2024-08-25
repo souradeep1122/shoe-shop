@@ -1,39 +1,27 @@
 
-*{
-    padding: 0%;
-    margin: 0%;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  
-}
 
-body{
-    height: 100%;
-    width: 100%;
-    
-    
-   
-}
 .footer{
-    width: 100%;
-    height: 60vh;
+  
+    height: 30vw;
     background-color: rgb(9, 9, 22);
     display: flex;
     flex-direction: column;
     color: whitesmoke;
-    margin-top:15vh;
+    
   
     
    
    
 }
 .footer1{
-    height: 40vh;
-    padding: 30px 30px;
+   
+    height: 25vw;
+    padding: 3vw;
     display: flex;
     flex-direction: row;
     text-transform: uppercase;
     font-weight: 500;
-    font-size: 1rem;
+    font-size: 1.2vw;
     color: rgb(178, 176, 176);
     
     justify-content: space-between;
@@ -43,14 +31,14 @@ body{
 .topic1{
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 1vw;
     
 
 }
 .topic1 a{
     text-decoration: none;
     color: white;
-    font-size: 0.8rem;
+    font-size: 1vw;
     text-transform: capitalize;
 }
 
@@ -59,29 +47,31 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-    height: 20vh;
+    height: 5vw;
     
     
 }
 .copywright{
+    font-size: 2vw;
     width: 50vw;
     display: flex;
     justify-content: end;
     align-items: center
 }
 .copywright img{
-    height: 20px;
+    height: 2vw;
 }
 .payment{
-    width: 50vw;
+    
+    width: 45vw;
     display: flex;
-    gap: 15px;
+    gap: 2vw;
     
     justify-content: center;
     
 }
 .payment img{
-    height: 30px;
+    height: 3vw;
     display: flex;
     align-items: center;
 }
